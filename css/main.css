@@ -1,0 +1,280 @@
+/*GENERAL*/
+
+.mt-5 {
+    margin-top: 5%;
+}
+.mb-5 {
+    margin-bottom: 5%;
+}
+.pt-5 {
+    padding-top: 5%;
+}
+.text-white {
+    color: white;
+}
+img {
+    width: 100%;
+}
+.bg-green {
+    background-color: #26AD60;
+}
+.bg-bluemarine {
+    background-color: #2D3E52;
+}
+.bg-white {
+    background-color: #dddee3;
+}
+.text-blue {
+    color: #2D3E52;
+}
+hr {
+    width: 20%;
+}
+h2 {
+    font-size: 400%;
+}
+.btn-black {
+    background-color: #535450;
+}
+
+/*NAVIGATION*/
+
+ul li a {
+    color: white;
+}
+.navbar {
+    margin-bottom: 0%;
+    border-radius: 0px;
+}
+.icon-bar {
+    background-color: white;
+}
+
+/*HEADER*/
+
+#imgheader {
+    background-image: url("../img/carousel-bg.jpg");
+    height: 500px;
+    background-size: cover;
+}
+h1 {
+    font-size: 500%;
+}
+.textheader {
+    font-size: 300%;
+}
+
+/*SECTION COLOR PALETTE*/
+
+.divpalette {
+    float: left;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    padding-bottom: 15%;
+    margin-bottom: 1%;
+}
+.color1 {
+    background-color: #68D2E7;
+}
+.color2 {
+    background-color: #A7DBDB;
+}
+.color3 {
+    background-color: #E0E4CC;
+}
+.color4 {
+    background-color: #F38630;
+}
+.color5 {
+    background-color: #FA6900;
+}
+.color6 {
+    background-color: #E94C6F;
+}
+.color7 {
+    background-color: #542733;
+}
+.color8 {
+    background-color: #5A6A62;
+}
+.color9 {
+    background-color: #C6D5CD;
+}
+.color10 {
+    background-color: #FDF200;
+}
+
+/*SECCION ABOUT US*/
+
+
+/*SECTION WHAT WE DO*/
+#iconhover1, #iconhover2, #iconhover3{
+  height: 145px;
+  background-size: cover;
+}
+#iconhover1{
+  background-image: url("../img/icons/webdesign.png");
+}
+#iconhover1:hover{
+  background-image: url("../img/icons/idea.png");
+}
+#iconhover2{
+  background-image: url("../img/icons/graphicdesign.png");
+}
+#iconhover2:hover{
+  background-image: url("../img/icons/creation.png");
+}
+#iconhover3{
+  background-image: url("../img/icons/mobile.png");
+}
+#iconhover3:hover{
+  background-image: url("../img/icons/presentation.png");
+}
+.iconimg {
+    width: 40%;
+    margin-left: 30%;
+}
+
+/*SECTION OUR TEAM*/
+
+.listminicon ul li {
+    float: left;
+}
+.membersteam {
+    padding: 15%;
+}
+.iconteam {
+    font-size: 100%;
+    padding: 20%;
+}
+.marginteam {
+    margin-left: 25%;
+}
+
+/*SECTION BEST PRICE GUARANTEED*/
+
+.columns {
+    float: left;
+}
+.price {
+    list-style-type: none;
+    border: 1px solid #26AD60;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+.price .header {
+    color: white;
+    font-size: 25px;
+}
+.pricesize {
+    font-size: 300%;
+}
+.price li {
+    text-align: center;
+}
+.price .grey {
+    background-color: #26AD60;
+}
+.padtitle {
+    padding: 6% 50% 6% 30%;
+}
+.padelements {
+    padding: 5%;
+}
+.padbutton {
+    padding: 30%;
+}
+.button {
+    background-color: #8b6533;
+    border: none;
+    color: white;
+    padding: 6%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*SECTION WHAT OUR CLIENTS SAY*/
+
+h4 {
+    color: #c96d3f;
+}
+.padphrases {
+    padding: 1% 25%;
+}
+
+/*SECTION GET IN TOUCH*/
+
+.inputsmall {
+    padding: 1% 20%;
+}
+
+/*FOOTER SOCIAL LINKS*/
+
+#imgfooter {
+    background-image: url("../img/img-divider-img.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.listnet ul li {
+    float: left;
+}
+.iconfooter {
+    font-size: 800%;
+    padding: 17%;
+}
+
+/*FOOTER GREEN*/
+
+.fa {
+    color: white;
+}
+.iconinput {
+    color: #cd7815;
+}
+
+/*MEDIA QUERIES*/
+/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+h1{
+  font-size: 300%;
+}
+.textheader{
+  font-size: 200%;
+}
+.marginteam {
+    margin-left: 38%;
+}
+.price{
+  width: 100%;
+margin-left: 40%;
+margin-bottom: 10%;
+}
+.iconfooter{
+  margin-top: 80%;
+  font-size: 330%;
+}
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
